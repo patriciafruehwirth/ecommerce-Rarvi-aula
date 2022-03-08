@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.conteudo {
+    padding: 0 25px ;
+    width: 1250px;
+    margin: 0 auto;
+
+
+}
+
+
+.btn-secao {
+    background: #474747;
+    display: block;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+}
+
+.btn-secao:hover {
+    background: #282828;
+}
+
+.titulo-secao {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 45px 0 45px 0;
+
+}
+
+
+
+
+
+/*****************************************************************************************************************
+HEADER 
+*****************************************************************************************************************/
+
+.cabecalho {
+    border-top: 24px solid #282828;
+}
+.cabecalho-cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 24px 0; 
+}
+
+.cabecalho-logo {
+    width: 300px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    color: #282828;
+}
+
+.envolve-menu {
+    
+    background: #282828;
+}
+
+.menu-principal {
+    padding: 8px 0 ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-principal a {
+    color: #fff;
+}
+
+.banner-principal {
+    width: 100%; 
+}
+
+.img-banner {
+    width: 100%;
+    /*height: 100%;*/
+    
+}
+
+
+
+
+/*****************************************************************************************************************
+RODAPÉ
+*****************************************************************************************************************/
+
+.rodape {
+    background: #282828;
+    padding: 45px 0 0;
+}
+
+.envolve-links-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+.links-rodape {
+    width: 250px;
+}
+.links-rodape li {
+    color: #fff;
+    margin: 10px 0;
+    list-style-position:inside ;
+}
+.links-rodape a {
+    font-size: 14px;
+    color: #fff;
+}
+
+    .links-rodape a:hover{
+        text-decoration: underline;
+    }
+
+.links-rodape li:first-child {
+    font-weight: 500;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #da1e24;
+}
+
+.direitos-reservados {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 45px;
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding: 5px 0;
+
+}
+
+
+

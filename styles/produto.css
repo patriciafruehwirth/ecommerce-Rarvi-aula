@@ -1,0 +1,59 @@
+body {
+    background-color: aquamarine;
+}
+
+.info-produto {
+    background: red;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    margin: 0 10px 0 0;
+}
+
+.image img {
+    width: 100%;
+}
+
+.info-nome-produto {
+    background: grey;
+    height: 200px;
+    width: 790px;
+}
+
+.info-nome-produto h2{
+
+}
+
+.info-nome-produto p{
+
+}
+
+.quantidade-produto{
+
+}
+
+.filtro-itens{
+
+}
+
+.btn-comprar{
+
+}
+
+.bloco-meio {
+    background: pink;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.bloco-baixo {
+    background: greenyellow;
+    height: 100px;
+}

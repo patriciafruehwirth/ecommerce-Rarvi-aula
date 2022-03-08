@@ -1,0 +1,83 @@
+
+
+
+ /*****************************************************************************************************************
+CUPOM DESCONTO
+*****************************************************************************************************************/
+
+.cupom-desconto {
+    border: 1px solid #b1aea6;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 45px;
+}
+
+.desconto {
+    width: 500px;
+}
+
+.desconto p {
+    font-size: 18px;
+}
+
+
+.desconto p span {
+    color: #da1e24;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cupom {
+    border-left: 1px solid #b1aea6;
+    padding-left: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cupom p {
+    color: #da1e24;
+    font-weight: 800;
+}
+.cupom p small {
+    display: block;
+    font-weight: 300;
+}
+
+.cupom span {
+    color: #da1e24;
+    border: 2px dashed #da1e24;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+
+/*****************************************************************************************************************
+NEWSLETTER
+*****************************************************************************************************************/
+
+/* .newsletter {
+    background: #cf6b19;
+    height: 100px;
+}
+
+.siga-inta {
+    background: #e295c2;
+    height: 100px;
+}
+
+.informacao {
+    background: #85bfce;
+    height: 150px;
+} */
+

@@ -1,0 +1,50 @@
+.pagina-categoria {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.titulo-pagina{
+    width: 100%;
+    /* text-align: center; */
+    padding: 40px 0;
+    font-size: 40px;
+}
+
+.filtros {
+    /* background: #f00; */
+    width: 25%;
+    padding: 5px 10px;
+    margin: 40px 0;
+}
+
+.filtros h5 {
+font-size: 20px;
+}
+
+.filtro-itens {
+    padding: 20px 0px;
+}
+
+.filtro-itens li{
+    /* background: greenyellow; */
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.filtro-itens li:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.filtro-itens li a {
+    color: #282828;
+}
+
+
+
+.lista-produtos {
+    width: 75%;
+}
+
