@@ -1,9 +1,4 @@
-body {
-    background-color: aquamarine;
-}
-
 .info-produto {
-    background: red;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
@@ -21,39 +16,72 @@ body {
 }
 
 .info-nome-produto {
-    background: grey;
-    height: 200px;
     width: 790px;
+    padding-left: 40px;
 }
 
 .info-nome-produto h2{
-
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .info-nome-produto p{
-
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .quantidade-produto{
-
+    margin: 15px 0;
 }
 
 .filtro-itens{
-
+    margin: 15px 0;
 }
 
-.btn-comprar{
+.filtro-itens ul {
+    list-style-type: none;
+}
 
+.filtro-itens ul li:first-child {
+    color: #282828;
+    font-size: 18px;
+    font-weight: 600;
+}
+.filtro-itens ul li a {
+    display: block;
+    color: #282828;
+    margin: 5px 0;
+}
+.filtro-itens.filtro-tamanhos ul li:not(:first-child) {
+    display: inline-block;
+    border: 1px solid #282828;
+    margin: 5px 5px 5px 0;
+}
+.filtro-itens.filtro-tamanhos ul li a {
+    padding: 5px 5px;
+    margin: 0;
+}
+.btn-comprar{
+    background: #5da423;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 5px 5px;
+    text-transform: uppercase;
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin-top: 27px;
+    
+}
+.btn-comprar:hover {
+    transition: 1s;
+    background: #4a831c;
 }
 
 .bloco-meio {
-    background: pink;
-    height: 100px;
     width: 100%;
     
 }
-
-.bloco-baixo {
-    background: greenyellow;
-    height: 100px;
+.bloco-meio h4 {
+    margin: 10px 0;
 }
