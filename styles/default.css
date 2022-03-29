@@ -49,7 +49,15 @@ body{
 
 }
 
-
+/* FORMS */
+.form-input {
+    border: 1px solid #282828;
+    padding: 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+    font-weight: 400;
+    font-size: 16px;
+}
 
 
 
